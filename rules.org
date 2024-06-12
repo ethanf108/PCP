@@ -1,0 +1,303 @@
+#+TODO: TODO WORKING WAITING | MODE-WAITING DONE
+* Scoring
+** DONE Pop Bumpers
+- +500
+- +1 Drink Dropped
+- Hit 50 Times?
+  - SUPER JETS!
+  - 20,000 per hit
+  - +5 Drinks Dropped
+** DONE Slingshot
+- +200
+- +1 Drink Dropped
+** DONE C-S-H Rollover
+- +1,000
+- +1 Drink Dropped
+- Can change light with flipper
+- Completing (lighting all of them)
+  - +5,000
+  - Adds 1 to BONUS X
+  - +5 Drinks Dropped
+** DONE 1-9-7-6
+- in / out lanes
+- +1 Drinks Dropped
+- Can Change light with flipper
+- 9 and 7 give 2,000
+- 1 and 6 give 10,000
+- Completing (lighting all of them) this adds 1 to BONUS X
+  - +5 Drinks Dropped
+** TODO South Side Loop (Left)
+- 15,000
+- +1 Loop (In non multiball)
+- Hit 5 Times?
+  - +1 Devcade Game
+- Hit 17 Loops?
+  - If you won the story (MODE)
+    - Light Interstellar Mode
+** TODO North Side Loop (Right)
+- 15,000
+- +1 Loop (In non multiball)
+- Hit 5 Times?
+  - +1 Devcade Game
+- Hit 17 Loops?
+  - If you won the story
+    - Light Interstellar Mode
+** DONE Vader Lobby Left
+- 15,000
+- +5 Drinks Dropped
+- Hit 5 Times?
+  - +1 Devcade Game
+** DONE Vader Lobby Right
+- 15,000
+- +5 Drinks Dropped
+- Hit 5 Times?
+  - +1 Devcade Game
+** TODO User Center Ramp
+- 10,000
+- +1 Drinks Dropped
+- +1 Devcade Game
+- Hit 3 Times?
+  - THESE ARE NOT ACTIVE DURING MULTIBALLS
+  - Lock Lights Are Lit
+  - Hit 3 times?
+    - BAGELS MULTIBALL!!
+- Hit 5 Times?
+  - +2 Devcade Games
+  - +1 Imagine Project
+** TODO Luser Center Ramp
+- 10,000
+- +5 Drinks Dropped
+- Hit 3 times?
+  - THESE ARE NOT ACTIVE DURING MULTIBALLS
+  - Start PCP MULTIBALL
+- Hit 5 Times?
+  - +2 Devcade Games
+  - +1 Imagine Project
+** DONE Party Button Rollover Behind
+- 10,000
+- Lights Mystery
+  - Can't light Mystery during mode OR multiball
+  - After the first one it should take 2 to light mystery
+** DONE Party Button
+- 30,000
+- Hit twice, most lights shut off, start YOU DID WHAT ??? mode
+  - DONT ACTIVATE IN MODE
+  - Hit again, light turn back on
+    - After back on, this mini mode is disabled
+    - Winning gives 100,000
+    - +10 Drinks Dropped
+- Hit 6 Times, Start PARTY BUTTON MULTIBALL
+- Hit 8 times, light extra ball
+** DONE Lounge Rollover Behind
+- 20,000
+** DONE Lounge Rectangle Target
+- Normally 1,000
+- Hit 5 Times?
+  - +1 Imagine Project
+- Once After every mode, can hit the lounge to (hurry up mode):
+  - 1,000 x (Amount of (Drinks + Devcade Games + Imagine Projects))
+  - after every second, degrades in value. max 10 seconds.
+    - -100 from the multiplier per second
+** DONE R-T-P Targets
+- 7,000
+- Hit in order
+  - Disable changing of this value during mode
+  - 50,000
+  - +1 Devcade Game
+** DONE Elevator Button
+- 12,000
+- Hit 3 times?
+  - THESE ARE NOT ACTIVE DURING MULTIBALLS
+  - Light House Meeting
+** MODE-WAITING Scoop Ball Pit
+- Regularly 2,000
+- Activate Mystery if lit, this is triggered no matter what before any mode
+- modes still occur afterwards
+  - MYSTERY:
+    - Use some weird algo (that nobody understands idk) to determine this
+      MYSTERY CHOICES:
+      - 50,000 (gets changed to 500,000 if won the game)
+      - Light Bagels MULTIBALL
+	- ADD TO SCOOP, OVERRIDE REQUIREMENTS
+      - Light Extra Ball
+      - +5 Drinks
+      - +2 Devcade Games
+      - more will be put in later
+- If Extra ball is lit, get it
+- Mode Starter, one mode at a time
+- Can do multiball within a mode
+** DONE Server Room Drop Target
+- 7,000
+- Complete in Order
+  - Get 50,000
+  - Light Opcommathon Mode
+    - NOT DURING MODE
+** TODO B-E-P-I-S
+- 2,000
+- Complete in order?
+  - 50,000
+  - +5 Drinks Dropped
+  - 2x Playfield multiplier for 30 SECONDS
+    - If done again in 30 seconds, reset timer and do (multiplier +1)
+- Did you hit the targets more 18 times?
+  - DOUBLE YOUR DRINKS (current amount)
+** TODO B-I-G
+- 2,000
+- +1 Drink Dropped
+- Complete in order?
+  - 50,000
+  - +5 Drinks Dropped
+- Did you hit the targets more than 17 times?
+  - Seperate from B-E-P-I-S
+  - DOUBLE YOUR DRINKS
+* Multiballs
+** TODO Bagels
+- 3 ball multiball
+  - Jackpots are 100,000 + 2 Drinks Dropped, the things below are the jackpot shots.
+    - User Center
+    - Vader Lobby Left
+    - Vader Lobby Right
+    - South Side Loop
+    - North Side Loop
+  - Jackpot scores replace default scoring behavior
+    - Only once though, once you activate the jacpot
+      that item returns to normal scoring behavior
+  - Hit All?
+    - SUPER JACKPOT is party button
+      - +350,000 +10 Drinks Dropped
+    - 5 SUPER JACKPOTS light extra ball
+      - resets back to beginning of jackpot state (5 targets etc)
+** DONE Party Button
+- ALL BALL MULTIBALL
+  - Jackpot is Party button
+  - 100,000 per hit
+  - Hit 5 Times?
+    - Super Jackpot is party button
+    - 200,000 per hit
+** DONE PCP
+- 2 Ball multiball
+  - Jackpots are DROP Targets
+  - 20,000 a drop target
+    - Normal scoring behavior
+      for drop targets disabled
+    - Hit all 6 Drop targets? not in order
+      - Add a ball!
+      - Go to Phase 2
+  - Phase 2
+    - Hit the pop bumpers 60 times?
+      - +1 Drink Dropped per pop bumper
+      - 2,000 a pop bumper a hit
+      - Light Extra Ball
+      - Reset Jackpots / pop bumper scores, cannot get another extra ball
+	- This means go back to Phase 1
+
+* Modes
+- Modes can only be activated ONCE per round,
+  except if you "win" the game in the FINALS mode
+- Stash (git) current lights state,
+  pop (git) it later after mode
+** TODO YOU DID WHAT??
+- After hitting party button twice, all lights shut off
+  - Hit again, light turn back on
+    - After back on, this mini mode is disabled
+    - Winning gives 100,000
+    - +10 Drinks Dropped
+    - +1 Imagine Project
+** TODO Opcommathon
+- To complete opcommathon, one must complete the following
+  - Either B-I-G or B-E-P-I-S
+  - One Server Room Rack (Drop Targets) (Not In order)
+  - One User Center Shot
+- After these, shoot the scoop
+  - Win!
+  - 400,000
+  - +5 Drinks Dropped
+  - +5 Devcade Games
+  - +1 Imagine Project
+** TODO House Meeting
+- Phase 1
+  - Hit the elevator target
+    - Go to phase 2
+- Phase 2
+  - Complete Server Room Rack (drop targets)
+    - 1 North Side Loop
+    - 1 South Side Loop
+    - 1 User Center
+    - 1 Luser Center
+- All Done?
+  - Scoop!
+    - Win 300,000
+    - +5 Drink Dropped
+    - +3 Devcade Games
+    - +1 Imagine Project
+** TODO Finals
+- COUNTS AS A MULTIBALL AND A MODE
+  - i.e. cant activate another multiball
+- If you have:
+  - 120 Drinks Dropped
+  - 10 Devcade Games
+  - 5 Imagine Projects
+  - completed house meeting
+- complete the following
+  - Vader Lobby Left
+  - Vader Lobby Right
+  - User Center Ramp
+  - Luser center ramp
+  - South Side
+  - North Side
+  - B-E-P-I-S or B-I-G targets
+  - Lounge Target
+  - R-T-P Targets
+- ALL HIT ONCE?
+  - Go for the Scoop!
+    - Win!
+    - 1,000,000
+    - YOU WON THE GAME!!
+      - Basically reset
+    - Alternate Modes Unlock!
+* Alternate Modes
+** Interstellar
+(plays no time for caution)
+*TIMED MODE, the amount of time is the same as the song.*
+- Hit one of two loops that the game randomly chooses (5,000)
+  - Then hit one of two vader lobby shots (10,000)
+    - Party Button (20,000)
+      - Lounge Target (40,000)
+	- User Center Ramp (80,000)
+	  - Luser Center Ramp (160,000)
+	    - Then constantly hit a single loop multiple times (randomly chosen which one)
+	    - 400,000 a piece
+	    - Hit 7?
+	      - GO FOR SCOOP!! (mega dramatic)
+		- Win 1,000,000
+		- + 20 Devcade Games
+		- +3 Imagine Projects
+* Misc
+** DONE Score Calculation
+| Bonus            | Score   |
+|------------------+---------|
+| Drinks Dropped   | 5,000   |
+| Devcade Games    | 50,000  |
+| Imagine Projects | 100,000 |
+$$ * Bonus multiplier (BONUS X) = \text{Bonus Amount} $$
+** DONE Tilt warnings
+- 2 warnings
+- Third tilt ends ball
+** DONE Ball Save
+- 10 Second Ball save, only one ball save, after the ball saves, the timer ends
+** WORKING Multiballs
+- Can only activate multiballs / modes once per game.
+  If you complete every mode, the game resets with the alternate modes
+- In a multiball, jackpot shots are the only ones lit up unless you're in a mode.
+  Normal shots give normal scores but don't progress
+** TODO Skill Shot
+- Happens at the start of every ball for each player
+- *You can only get one skill shot per ball*
+- Top 3 (CSH) rollovers, one is lit, can change which one is lit with flippers while ball is rolling
+  - If the ball hits the lit one, you get the skill shot!
+    - 50,000
+- If the ball hits the party button without hitting anything except for rollovers?
+  - Super skill shot!
+    - 100,000
+- Impossible shot
+ 
