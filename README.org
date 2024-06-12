@@ -1,0 +1,12 @@
+* Project CSH Pinball
+- Pinball machine
+- For [[https://csh.rit.edu][Computer Science House]]
+- Not finished (yet)
+- Coded for 1 (1) Arduino Mega
+- Designed in collaboration with [[https://github.com/GarrettMaury7921][Garret Maury]] and Leo Brown
+- Pretty Cool^{TM}
+** Code
+- Good
+- , Bad
+- [[https://letterboxd.com/ethanf108][Arduino]] suck s
+
